@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "execa": "^4.0.3",
     "lerna": "^3.13.4"
   }
 }
