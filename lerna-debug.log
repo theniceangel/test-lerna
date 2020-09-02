@@ -1,0 +1,6 @@
+36 error Error: Command failed: git tag v1.0.0 -m v1.0.0
+36 error fatal: tag 'v1.0.0' already exists
+36 error
+36 error     at makeError (/Users/didi/temp/test-lerna/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
+36 error     at /Users/didi/temp/test-lerna/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16
+36 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)

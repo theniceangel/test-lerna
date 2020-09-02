@@ -1,4 +1,4 @@
-const version = '1.0.0'
+const version = '1.0.1'
 const npmTag = 'latest'
 const execa = require('execa')
 const releaseArguments = [
