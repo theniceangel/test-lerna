@@ -1,15 +1,14 @@
-const version = '2.0.0'
+const version = '1.0.0'
 const npmTag = 'latest'
-
+const execa = require('execa')
 const releaseArguments = [
   'publish',
   version,
   '--force-publish',
+  '*',
   '--npm-tag',
-  npmTag,
-  '*'
+  npmTag
 ]
 
 console.log(`lerna ${releaseArguments.join(' ')}`)
-
-await execa(require.resolve('lerna/cli'), releaseArguments, { stdio: 'inherit' })
+execa(require.resolve('lerna/cli'), releaseArguments, { stdio: 'inherit' })
