@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "> TODO: description",
   "author": "jizhi <jizhi@didichuxing.com>",
   "homepage": "https://github.com/theniceangel/test-lerna#readme",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/theniceangel/test-lerna/issues"
   },
-  "gitHead": "5ab1244f2df5899634d423cb60956622238daf4a"
+  "gitHead": "1b99c0ce095245690571562f0df65faa23ec8e96"
 }
